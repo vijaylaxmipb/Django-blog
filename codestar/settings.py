@@ -25,7 +25,7 @@ if os.path.isfile('env.py'):
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-s86n()vzjth!jhkt%s24%h$obuq50d!vq0h!r0a=-ex(f*zm2%'
-SECRET_KEY = os.environ.get("DATABASE_URL")
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
